@@ -49,7 +49,7 @@
 // difference= Math.floor(difference);
 // console.log(`It was my birthday ${difference} days ago`);
 
-// i struggled quite a bit with activity 3.
+// i struggled quite a bit with activity 3and had some support from thomas.
 
 // // activity4-----------------------------------
 // const space1 = "X";
@@ -170,9 +170,9 @@
 //     console.log(`No ${num} is not a palindrome`)
 // }
 
-// this is tutor answer^ as i was totally stumped on this one and had no idea where to even start. 
+// // this is tutor answer^ as i was totally stumped on this one and had no idea where to even start. 
 
-//  will be researching more built in methods.
+// //  will be researching more built in methods.
 
 
 // activity7-----------------------------------------

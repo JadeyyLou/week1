@@ -89,35 +89,25 @@
 
 
 // activity3-------------------------------
-    let price = 0
-    let order = []
-
 const coffeeShop = {
     branch: "costa",
-    drinks: 
-    {cappuccino: 2.00,
-    latte: 1.50,
-    hotChocolate: 2.00,
-    frappe: 3.00
-    },
-    food: 
-    {cookie: 1.00, 
-    crisp: 0.50,
-    cake: 3.00},
+    drinks: ["cappuccino" ,"latte","hotChocolate","frappe"],
+    drinkPrices:[2.99, 1.99,2.99,3.49],
+    food: ["cookie","crisp's","cake"],
+    foodPrices:[0.99, 0.50, 1.99],
+    
 drinksOrdered(){
-    //   for(let price of order = coffeeShop.drinks([1],[3])){
-    
-    //  }
-    
-    }
-        return(`your order is ${drinksOrdered} `)
-    },
+   return(`Your drink's order is ${this.drinks[1]} costing £${this.drinkPrices[1]}.`)
+},
+FoodOrdered(){
+    return(`Your food order today is ${this.food[2]} costing £${this.foodPrices[2]}`)
+},
 
-    foodOrdered(){
-        order = coffeeShop.food[0],[2]
-        return(`your order is${foodOrdered}`)
-    }
-    
-    
-    }
-   
+}
+console.log(coffeeShop.drinksOrdered(),coffeeShop.FoodOrdered())
+
+
+// this one has had me totally stumped. Would benefit from someone talking it through with me.
+// ive managed to get it to separately return a drink order with price and food order with price, but cant make it order more than one item, or add the totals together to generate a grand total.
+ 
+
